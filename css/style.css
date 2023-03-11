@@ -1,0 +1,17 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+aviso{
+position: fixed;
+width: 100%;
+height: 100%;
+text-align: center;
+color: white;
+background: black;
+}
+

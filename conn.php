@@ -1,7 +1,7 @@
 <?php session_start();
 
 try {
-	$pdo = new PDO('mysql:host=localhost;dbname=testes','rot','');
+	$pdo = new PDO('mysql:host=localhost;dbname=enquete','root','');
 
 } catch (Exception $e) {
 	echo '<aviso>cod:1 erro ao tentar conectar :(<br>error when trying to connect to base</aviso>';

@@ -1,8 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Enquete</title>
+</head>
 
-
+<body>
 
 <h2>Enquetes ativas</h2>
-<hr>
+<div class="container">
 <?php
 if (isset($_POST['acao'])) {
 	
@@ -45,3 +53,9 @@ foreach ($perguntasEnquete as $key => $value) {
 
 
 ?>
+
+</div>
+
+</body>
+
+</html>

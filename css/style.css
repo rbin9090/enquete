@@ -15,3 +15,34 @@ color: white;
 background: black;
 }
 
+body{
+	padding: 20px;
+	width: 100%;
+	height: 100% auto;
+	border: 1px solid #fa2184;
+
+}
+
+
+
+.container{
+	padding: 50px 10;
+	max-width: 1100px;
+	width: 100%;
+	height: 100vh;
+	background: grey;
+	margin: 0 auto;
+}
+
+h2{
+	text-align: center;
+	font-size: 58px;
+	color: limegreen;
+	font-weight: bolder;
+}
+
+
+form b{
+	font-size: 40px;
+	text-align: center;
+}
